@@ -1,5 +1,7 @@
 <?php 
 
+namespace App\Database\Config;
+
 interface crud {
     function create();
     function read();

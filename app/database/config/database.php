@@ -1,5 +1,8 @@
 <?php
 
+namespace App\Database\Config;
+
+use mysqli;
 
 class database {
     private $hostname = 'localhost';

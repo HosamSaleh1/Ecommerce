@@ -1,6 +1,10 @@
 <?php
 include_once __DIR__.'\..\config\database.php';
 include_once __DIR__.'\..\config\crud.php';
+
+use App\Database\Config\crud;
+use App\Database\Config\database;
+
 class Brand extends database implements crud {
     private $id;
     private $name_en;
